@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chonburi', cursive;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*HOME*/
+.fondo-1 {
+    background-image: url(multimedia/img/Hayley-Williams.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    top: -20px;
+}
+
+.nav a {
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+}
+
+/*titulo*/
+.titulo-1 {
+    padding: 40px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 40px;
+    top: 10px;
+    position: relative;
+}
+
+/*cuerpo*/
+.parrafo-1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 40px;
+    font-size: 12px;
+    text-align: center;
+    top: -80px;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+@media screen and (max-width: 480px) {
+
+    .nav,
+    .titulo-1,
+    .parrafo-1 {
+        width: 100%;
+    }
+}
+
+
+/*redes*/
+ul {
+    list-style-type: none;
+}
+
+.redes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.spotfy {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*HAYLEY*/
+.fondo-2 {
+    background-color: #cf731c;
+}
+
+/*encabezado*/
+.nav-2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+
+.nav-2 a {
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+}
+
+.titulo-2 {
+    color: hsl(290, 100%, 27%);
+    top: 20px;
+    position: relative;
+    font-weight: 500;
+    font-size: 70px;
+    top: 60px;
+}
+
+.parrafo-2 {
+    top: 70px;
+    position: relative;
+    text-align: center;
+    left: 100px;
+    padding-right: 200px;
+    color: rgb(0, 0, 0);
+
+}
+
+.card {
+    width: 100%;
+    height: 730px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff96;
+    cursor: default;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    top: 80px;
+}
+
+.foto-1 {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.foto-2 {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.foto-3 {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+/*Tarjetas*/
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.card .contenido h3 {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.card .contenido p {
+    display: flex;
+    line-height: 1.5;
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
+
+.card .contenido a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/*TOUR*/
+
+.fondo-3 {
+    background-image: url(multimedia/img/NME-PARAMORE-HERO-2023@2560x1625.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: top;
+    background-size: cover;
+}
+
+/*encabezado*/
+.nav-3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    top: -30px;
+}
+
+.nav-3 a {
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+}
+
+
+.titulo-3 {
+    color: rgb(250, 132, 35);
+    font-weight: 500;
+    font-size: 70px;
+    top: -10px;
+    position: relative;
+}
+
+.subtitulo-3 {
+    color: rgb(250, 132, 35);
+    font-weight: 500;
+    font-size: 70px;
+    top: -80px;
+    position: relative;
+}
+
+/*tabla*/
+.tabla {
+    background-color: rgba(128, 128, 128, 0.199);
+    margin: 150px auto;
+    width: 600px;
+    top: 80px;
+    position: relative;
+}
+
+
+/*MUSICA*/
+.fondo-4 {
+    background-color: #000000;
+}
+
+.nav-4 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+
+.nav-4 a {
+    color: rgb(255, 255, 255);
+    padding: 12px 18px;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+}
+
+.titulo-4 {
+    color: rgba(250, 132, 35, 0.589);
+    font-weight: 500;
+    font-size: 70px;
+    top: 40px;
+    position: relative;
+}
+
+.parrafo-4 {
+    color: rgba(255, 255, 255, 0.61);
+    top: 40px;
+    position: relative;
+}
+
+.col {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+/*CONTACTO*/
+.fondo-5 {
+    background-image: url(multimedia/img/dec1b4d8a0aa95eb7a8016592e45ba32.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: top;
+    background-size: cover;
+}
+
+/*NAVBAR CON LOGO*/
+
+.logo {
+    float: left;
+    width: 50px;
+    display: flex;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    top: -30px;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+}
+
+
+.titulo-5 {
+    color: rgb(255, 72, 0);
+    font-weight: 500;
+    font-size: 70px;
+    top: 20px;
+    position: relative;
+    left: 60px;
+}
+
+.subtitulo-5 {
+    color: rgba(252, 193, 30, 0.815);
+    font-weight: 500;
+    font-size: 70px;
+    top:-45px;
+    position: relative;
+    left: 170px;
+}
+
+/*FORMULARIO*/
+
+.formulario {
+    top: -100px;
+    margin: auto;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.267);
+    padding: 30px;
+    position: relative;
+
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.f-1 {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+}
+
+.f-2 {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.233);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+}
